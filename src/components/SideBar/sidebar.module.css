@@ -1,0 +1,7 @@
+.container {
+  position: fixed;
+  top: 60px;
+  background: linear-gradient(180deg, #4e73df, #224abe);
+  min-height: 100vh;
+  min-width: 60px;
+}

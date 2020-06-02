@@ -1,0 +1,56 @@
+.table {
+  border-collapse: collapse;
+  overflow: scroll;
+  border-radius: 10px;
+}
+
+.table thead tr {
+  color: white;
+  background: rgba(39, 60, 117, 1);
+  border-bottom: 1px solid;
+}
+
+th,
+td {
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background: rgba(39, 60, 117, 1);
+  color: white;
+}
+
+.table tbody tr:nth-of-type(even):hover {
+  background: rgba(39, 60, 117, 0.5);
+  color: white;
+}
+
+.button {
+  background: rgba(39, 60, 117, 1);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.icon {
+  display: block;
+  font-size: 0.7rem;
+  pointer-events: none;
+}
+.text {
+  font-size: 0.6rem;
+  display: block;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
