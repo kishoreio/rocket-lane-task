@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rocket-lane-task/precache-manifest.4e0eee66bdf13dcd8b88b5f7344f8256.js"
+  "/rocket-lane-task/precache-manifest.b1550f5ddfa4c5bce3880e02e4d39f92.js"
 );
 
 self.addEventListener('message', (event) => {
