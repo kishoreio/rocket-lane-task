@@ -21,6 +21,11 @@ const FilterTable = () => {
     }
     tableDispatch({ type: 'TOGGLE_FILTER_ON', prop: filter, func: initialState });
   };
+  // storing the filter option in local storage
+  if (JSON.stringify(localStorage.getItem('filter') !== JSON.stringify(filterData))) {
+    localStorage.setItem('filter', JSON.stringify(filterData));
+  }
+  console.log(filterData);
   //  Generate dynamic filter option
   const generateOptions = filterData.map(data => {
     return (

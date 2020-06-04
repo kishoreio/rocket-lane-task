@@ -20,7 +20,6 @@ function App() {
   if (localStorage.getItem('data') !== null) {
     local = JSON.parse(localStorage.getItem('data'));
   }
-  console.log(data.current.value);
   return (
     <main>
       <TableContext.Provider value={{ local, tableDispatch, schema }}>

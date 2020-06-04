@@ -25,6 +25,7 @@
     "no-nested-ternary": "off",
     "import/no-cycle": "off",
     "no-param-reassign": "off",
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "operator-assignment": "off"
   }
 }

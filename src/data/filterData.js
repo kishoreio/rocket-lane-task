@@ -1,4 +1,4 @@
-export const filterData = [
+export const filterData = JSON.parse(localStorage.getItem('filter')) || [
   {
     prop: 'gender',
     option: [
